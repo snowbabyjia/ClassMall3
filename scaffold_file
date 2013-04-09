@@ -1,0 +1,7 @@
+rails generate scaffold Course title:string start:date end:date description:text
+rails generate scaffold Professor name:string
+rails generate scaffold Comment content:text course:references user:references
+rails generate scaffold Rating score:integer course:references user:references
+rails generate scaffold Major name:string requirement:text
+rails generate scaffold distribution name:string description:text
+
